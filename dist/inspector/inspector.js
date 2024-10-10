@@ -172,7 +172,8 @@
       rpId: optional(copyValue),
       allowCredentials: optional([publicKeyCredentialDescriptorSchema]),
       userVerification: optional(copyValue),
-      extensions: optional(simplifiedExtensionsSchema)
+      extensions: optional(simplifiedExtensionsSchema),
+      hints: optional(copyValue)
     }),
     signal: optional(copyValue)
   };
