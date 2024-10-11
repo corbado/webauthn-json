@@ -9,6 +9,9 @@
   "main": "dist/esm/webauthn-json.js",
   "types": "dist/types/index.d.ts",
   "bin": "dist/bin/main.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "require": "./dist/cjs/webauthn-json.cjs",
