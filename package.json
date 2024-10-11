@@ -1,7 +1,7 @@
 {
-  "name": "@github/webauthn-json",
-  "version": "2.1.1",
-  "description": "A wrapper for the webauthn API that adapts input/output values to plain JSON with base64url.",
+  "name": "@corbado/webauthn-json",
+  "version": "2.1.2",
+  "description": "A wrapper for the webauthn API that adapts input/output values to plain JSON with base64url (Corbado fork)",
   "author": "GitHub, Inc. <opensource+webauthn-json@github.com>",
   "license": "MIT",
   "type": "module",
