@@ -1,6 +1,6 @@
 {
   "name": "@corbado/webauthn-json",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "A wrapper for the webauthn API that adapts input/output values to plain JSON with base64url (Corbado fork)",
   "author": "GitHub, Inc. <opensource+webauthn-json@github.com>",
   "license": "MIT",
@@ -38,7 +38,9 @@
     "barely-a-dev-server": "^0.3.6",
     "esbuild": "^0.15.13",
     "rome": "^10.0.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "@web/dev-server-esbuild": "^0.3.3",
+    "@web/test-runner": "^0.15.0"
   },
   "scripts": {
     "build": "npm run build-js && npm run build-types",
@@ -78,7 +80,5 @@
     "/src/webauthn-json/**/*"
   ],
   "dependencies": {
-    "@web/dev-server-esbuild": "^0.3.3",
-    "@web/test-runner": "^0.15.0"
   }
 }
